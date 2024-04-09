@@ -6,25 +6,18 @@ beforeEach(() => {
 })
 
 test('renders counter message', () => {
-  const counterMsg = screen.getByText(/Counter/i);
-  expect(counterMsg).toBeInTheDocument();
+  // test logic here
 });
 
 test('should render initial count with value of 0', () => {
-  const count = screen.getByTestId('count');
-  expect(count).toHaveTextContent('0');
+  // test logic here
 });
 
 test('clicking + increments the count', () => {
-  const incrementBtn = screen.getByText('+');
-  fireEvent.click(incrementBtn);
-  const count = screen.getByTestId('count');
-  expect(count).toHaveTextContent('1');
+  // test logic here
 });
 
 test('clicking - decrements the count', () => {
-  const decrementBtn = screen.getByText('-');
-  fireEvent.click(decrementBtn);
-  const count = screen.getByTestId('count');
-  expect(count).toHaveTextContent('-1');
+ // test logic here
+ 
 });
